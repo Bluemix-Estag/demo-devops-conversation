@@ -2,12 +2,12 @@
   "services": {
     "conversation": [
       {
-        "name": "CONVERSATION SERVICE NAME",
+        "name": "Conversation-tb",
         "label": "conversation",
         "credentials":{
           "url": "https://gateway.watsonplatform.net/conversation/api",
-          "username": "YOUR USERNAME",
-          "password": "YOUR PASSWORD"
+          "username": "88227bac-2ac4-404f-8fb4-7f7fde0cf8e0",
+          "password": "FoJv3PvJPe6K"
         }
     }
   ]

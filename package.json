@@ -10,12 +10,14 @@
     "cfenv": "^1.0.4",
     "cloudant": "1.7.x",
     "connect-multiparty": "2.0.x",
+    "cors": "^2.8.4",
     "dotenv": "^4.0.0",
     "ejs": "2.5.x",
     "errorhandler": "1.5.x",
     "express": "4.15.x",
     "method-override": "2.3.x",
-    "morgan": "1.8.x"
+    "morgan": "1.8.x",
+    "watson-developer-cloud": "^2.39.0"
   },
   "repository": {},
   "engines": {

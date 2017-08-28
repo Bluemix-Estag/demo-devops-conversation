@@ -6,5 +6,3 @@ applications:
   name: cury-devops-conversation
   host: cury-devops-conversation
   disk_quota: 1024M
-  services:
-  - cury-devops-conversation-cloudantNoSQLDB
