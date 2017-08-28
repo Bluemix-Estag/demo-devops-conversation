@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ChatBot</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="translucent" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/style/materialize.min.css" />
+    <link rel="stylesheet" href="/style/animate.css" />
+
+</head>
+
+<body>
+    <nav class="blue" id="navheader">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo white-text flow-text">ChatBot</a>
+            <a href="#" class="right"><img src="/images/ibm.png" width="60" style="margin-right:10px;"></a>
+        </div>
+    </nav>
+    <div class="row" style="margin-top: 3%;">
+        <div class="col s10 offset-s1 z-depth-5" id="box">
+                <div class="row">
+                    <div class="col s12 center">
+                        <img src="/images/bot.gif" width="160" height="140" style="margin-top: 1%;">
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col s12 center">
+                            <p class="flow-text" id="bot">Olá, estou aqui para te ajudar!</p>
+                            <div id="loading"></div>
+                        </div>
+                    </div>
+                <div class="row">
+                        <div class="col s12 m4 offset-m4 l4 offset-l4">
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <input id="input" type="text" placeholder="Digite aqui..">
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="row">
+                        <div class="col s12 center">
+                                <button class="btn btn-small blue">Enviar</button>
+                        </div>
+                </div>
+            </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="/scripts/materialize.min.js"></script>
+<script src="/scripts/util.js"></script>
+<script src="/scripts/script.js"></script>
+</html>

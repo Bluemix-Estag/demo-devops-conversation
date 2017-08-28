@@ -1,0 +1,15 @@
+{
+  "services": {
+    "conversation": [
+      {
+        "name": "CONVERSATION SERVICE NAME",
+        "label": "conversation",
+        "credentials":{
+          "url": "https://gateway.watsonplatform.net/conversation/api",
+          "username": "YOUR USERNAME",
+          "password": "YOUR PASSWORD"
+        }
+    }
+  ]
+  }
+}

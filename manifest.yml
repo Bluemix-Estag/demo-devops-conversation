@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: cury-devops-conversation
+  host: cury-devops-conversation
+  disk_quota: 1024M
+  services:
+  - cury-devops-conversation-cloudantNoSQLDB
